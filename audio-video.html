@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body bgcolor="#3E14B6">
+
+<center>
+
+<audio controls id="audioTest" src="http://goodisco.org/march/img/T4/fmn/Top/Alan Walker - Alone.skm">
+El Navegador no soporta Audio<code>audio</code>
+</audio>
+<div>
+	<button onclick="document.getElementById('audioTest').play();">PLAY</button>
+	<button onclick="document.getElementById('audioTest').pause();">PAUSE</button>
+	<button onclick="document.getElementById('audioTest').volume-=0.1;">VOL -</button>
+	<button onclick="document.getElementById('audioTest').volume+=0.1;">VOL +</button>
+	<button onclick="document.getElementById('audioTest').volume=0;">VOL 0</button>
+	<button onclick="document.getElementById('audioTest').src='http://goodisco.org/march/img/T4/fmn/Top/CNCO - Hey DJ Ft Yandel.skm';document.getElementById('audioTest').play();">NEXT</button>
+</div>
+
+<video controls id="videoTest" src="https://www.w3schools.com/tags/mov_bbb.mp4" width="40%" height="20%">
+El Navegador no soporta Video<code>video</code> 
+</video>
+<div>
+	<button onclick="document.getElementById('videoTest').play();">PLAY</button>
+	<button onclick="document.getElementById('videoTest').pause();">PAUSE</button>
+	<button onclick="document.getElementById('videoTest').volume-=0.1;">VOL -</button>
+	<button onclick="document.getElementById('videoTest').volume+=0.1;">VOL +</button>
+	<button onclick="document.getElementById('videoTest').volume=0;">VOL 0</button>
+</div>
+<center>
+</body>
+</html>
